@@ -2,6 +2,8 @@
 
 This project showcases a pathfinding visualization using A* algorithm and Q-Learning model to find paths through a generated maze. The comparison between these two methods provides insights into their efficiency and applicability in solving pathfinding problems. Utilizing Pygame for visualization and TensorFlow for the Q-Learning model, this project offers an engaging way to understand and analyze pathfinding algorithms and machine learning in action.
 
+![alt text](Path_Finding.keras(1).png)
+
 ## Features
 
 - **Maze Generation**: Randomly generates a maze for pathfinding.
