@@ -9,7 +9,6 @@ import warnings
 import os 
 import numpy as np
 import sys
-from time import sleep
 from functools import wraps
 import time
 
@@ -318,7 +317,6 @@ def draw_path(screen, path, cell_size, color=(255, 0, 0)):
         for position in path [1:-1]:
             # Draw with a little delay to visualize the path
             pygame.draw.rect(screen, color, (position[1] * cell_size, position[0] * cell_size, cell_size, cell_size))
-            pygame.time.delay(250)
             
     except TypeError:
         print("No path found in draw path.")
@@ -431,7 +429,6 @@ def main():
         
         screen.fill((0, 0, 0))
         draw_maze(screen, maze, cell_size,start,goal)
-        sleep(3)
         draw_path(screen, a_star_path, cell_size, (255, 0, 0))
         #draw_path(screen, tf_model_path, cell_size, (0, 255, 0))
 
