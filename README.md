@@ -33,6 +33,8 @@ python pathfinding.py
 
 The Pygame window will open, displaying the generated maze and, eventually, the paths found by both the A* algorithm and the Q-Learning model.
 
+![alt text](لقطة شاشة 2024-04-05 034314.png)
+
 ## Development
 
 This project uses:
